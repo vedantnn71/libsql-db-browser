@@ -1,22 +1,7 @@
-# next-template
+# 💾 LibSQL Database Browser
+A database browser for libsql inspired from prisma studio. This is a super simple client and only has capability to read the database and show/hide the columns right now. Contributions for adding features are always welcome.
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+![344shots_so](https://github.com/vedantnn71/libsql-db-browser/assets/70624701/d41b263f-19b5-481e-8770-e6d34981facd)
 
-## Usage
-
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
-
-## Features
-
-- Next.js 13 App Directory
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
-
-## License
-
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+# 🏃 Running
+This project is built with nextjs and typescript. To spin up this on your machine just add the `DATABASE_URL` environment variable in the `.env` file and you will be good to go. You can just run the `pnpm dev` to start the dev server or `pnpm build` and `pnpm start` to run the production build.
